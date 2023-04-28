@@ -1,0 +1,29 @@
+npx create-react-app my-app - создать новое приложение,  my app - название приложения
+cd my-app - перейти в папку что бы работать
+npm start - уже запускает для полноценной работы 
+
+If you've previously installed ("create-react-app") globally via ("npm install -g create-react-app"), we recommend you uninstall the package using ("npm uninstall -g create-react-app") or ("yarn global remove create-react-app") to ensure that npx always uses the latest version.
+
+
+в src папке
+
+index.js - самы главный файл в зборке, в который мы будем собирать все наше приложение
+index.css - стили который какрас идут в index.js
+App.js - содержит базовую разметку
+App.css - стили в базовой версии
+reportWebVitals.js - для тестирования
+
+в папке public - обычно содержит статичные файлы те которые не будут менятся 
+index.html - в нем главный блок с id root  который мы будем помещять все наше приложение 
+открыть его в браузере ничего не увидем потомучто запускать приложение надо только лишь с командой
+npm start
+
+в проете также есть 
+node_modules
+gitignore
+README - в котором можно записать что это за приложение когда мы будем пушить 
+package.json
+
+Насчет зборки
+
+соновными её частями является webpack и babel, первый понятно, собирает наш проект и следит за изменениями которые будут в файлах, 2 babel - не только работает над поддержкой всех браузеров но может выступать в роли компилятор тоесть того инструмента который переводит припроцесор jsx  в обычный js код 
